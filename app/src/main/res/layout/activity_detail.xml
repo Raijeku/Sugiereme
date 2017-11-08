@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.udea.compumovil.gr10_20172.sugiereme.DetailActivity">
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/activity_detail_image"/>
+
+    <TextView
+        android:id="@+id/activity_detail_text_example"
+        android:layout_below="@id/activity_detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lectus nunc. Nunc nisl est, condimentum nec sollicitudin eu, euismod ut odio. Vestibulum vel massa at diam dapibus tempor. Mauris tincidunt, tellus eget accumsan lobortis, sapien neque facilisis leo, eget congue nibh enim fringilla felis. Aliquam id ligula sed tellus gravida iaculis at eu erat. Aliquam vulputate sed lectus nec facilisis. Etiam malesuada commodo orci, vel lacinia mauris tristique sed. Aliquam ultricies at sapien ultrices hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos." />
+
+    <Spinner
+        android:id="@+id/activity_detail_spinner_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_detail_text_example"
+        android:layout_margin="10dp"></Spinner>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/activity_detail_spinner_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Califica"
+        android:id="@+id/activity_detail_button"/>
+
+</RelativeLayout>

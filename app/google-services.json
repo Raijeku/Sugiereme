@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "218994711825",
+    "firebase_url": "https://sugiereme-4156d.firebaseio.com",
+    "project_id": "sugiereme-4156d",
+    "storage_bucket": "sugiereme-4156d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218994711825:android:5cfe7898d596da41",
+        "android_client_info": {
+          "package_name": "co.edu.udea.compumovil.gr10_20172.sugiereme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218994711825-irofpc48bv569l4st6cn8hgrv0ksuq6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.udea.compumovil.gr10_20172.sugiereme",
+            "certificate_hash": "b60b82fab11b7986172015652c67a079ddac7247"
+          }
+        },
+        {
+          "client_id": "218994711825-vvp9mdqqpf0me34hotfa6n2umgp1lf0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrUhrKVYp0QRahfh9rM8HR6Mu1NYblbxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218994711825-vvp9mdqqpf0me34hotfa6n2umgp1lf0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

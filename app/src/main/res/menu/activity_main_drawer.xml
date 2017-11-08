@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_actualizar"
+            android:title="Actualizar gustos" />
+        <item
+            android:id="@+id/nav_dar"
+            android:title="Dar sugerencias" />
+        <item
+            android:id="@+id/nav_recibir"
+            android:title="Recibir sugerencias" />
+        <item
+            android:id="@+id/nav_postula"
+            android:title="Postular" />
+        <item
+            android:id="@+id/nav_salir"
+            android:title="Salir" />
+    </group>
+
+
+</menu>
