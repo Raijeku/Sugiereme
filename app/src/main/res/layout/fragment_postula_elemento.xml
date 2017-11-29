@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.udea.compumovil.gr10_20172.sugiereme.PostulaElementoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_category"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_enter"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_enter_text"
+                android:layout_below="@id/postulate_element_enter"
+                android:inputType="text|textCapSentences" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/did_you_mean"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_mean"
+                android:layout_below="@id/postulate_element_enter_text" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:id="@+id/postulate_element_recycler"
+                android:layout_below="@id/postulate_element_mean"
+                android:layout_centerHorizontal="true">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_element"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_enter_element"
+                android:layout_below="@id/postulate_element_recycler"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_enter_text_element"
+                android:layout_below="@id/postulate_element_enter_element"
+                android:inputType="text|textCapSentences" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/did_you_mean"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_mean_element"
+                android:layout_below="@id/postulate_element_enter_text_element" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:id="@+id/postulate_element_recycler_element"
+                android:layout_below="@id/postulate_element_mean_element"
+                android:layout_centerHorizontal="true">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postulate_element_recycler_element"
+                android:text="@string/postulate"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/postulate_element_fragment_button"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
